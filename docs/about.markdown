@@ -4,15 +4,19 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+This site is an attempt at creating a universal language
+with neutrality in mind, i.e. the absence of gender specificity.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+It is **not** based on any research or similar/parallel works,
+and is mostly an attempt at starting from scratch and
+building up the language.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+References ("words") from other languages might be used and
+built upon, to ease learning or remember the language
+structure.
 
-
-[jekyll-organization]: https://github.com/jekyll
+Please bear with me: I'm no linguist, not exceptionally
+literate, and my only intention is to remove the hassle
+of genderism in languages, since there's no
+actual point for that - unless someone proves me to the
+contrary.

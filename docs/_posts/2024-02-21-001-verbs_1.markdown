@@ -1,0 +1,53 @@
+---
+layout: post
+title:  "The Bases - 1"
+date:   2024-02-21 13:32:00 -0500
+categories: [language, bases, rules]
+---
+
+# Verbs
+
+## Basic verbs
+
+Let's start with simple states or actions.
+
+To be and to have seem a good start, so let's consider
+* `be` --> to be
+* `av` --> to have
+
+*note*:
+We'll consider `H` a mute letter as in most latin language, since besides etymology it's pretty useless
+on its own.  
+
+## Personal pronouns
+
+Let's also define a way to address ourselves or the people we're with:
+* `im` -> I
+* `is` -> you
+* `it` -> them (singular, neutral)
+* `mi` -> we
+* `si` -> you (plural)
+* `ti` -> them (plural)
+
+Note the `i` letter, which represent a person (we'll get back to that in a moment), and the associated letter:
+* `m` -> 1st person
+* `s` -> 2nd person
+* `t` -> 3rd person
+
+The position of the added letter correspond to singular or plural.
+
+### Some examples:
+* I am -> `im be`
+* we are -> `mi be`
+* he/she has -> `it av`
+
+## Object pronouns
+
+We see here that the `i` letter represents a person (neutral). Similarly `o` represents an object or
+an animal, and is used the same:
+* `om` -> kind of non-sense, unless referring to myself as an object
+* `os` -> you (to a dog for instance)
+* `ot` -> it (or he/she for a pet)
+* `mo` -> us, as objects or abstract people (e.g. mankind)
+* `so` -> you, talking directly to or about several objects/animals
+* `to` -> them, the objects/animals

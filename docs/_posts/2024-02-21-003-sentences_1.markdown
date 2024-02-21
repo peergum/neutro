@@ -1,0 +1,68 @@
+---
+layout: post
+title: "The Bases - 3"
+date: 2024-02-21 13:32:00 -0500
+categories: [ language, bases, rules ]
+---
+
+# Sentences
+
+## A basic sentence
+
+We saw some examples in previous chapter. A simple sentence
+could be a subject and a verb, or a subject, a verb, and a complement.
+
+E.g.:
+
+* `si be ofis` -> you (plural) are at the office
+* `bild av ofise` -> the building has offices
+
+## Let's add a few adjectives to that
+
+* `biga` -> big
+* `smola` -> small
+* `tina` -> tiny
+* `tola` -> tall
+* `bela` -> beautiful
+* `cirka` -> circular/round
+* `kadra` -> square
+* `ovala` -> oval
+* `triga` -> triangular
+* `recta` -> rectangular
+* `reda` -> red
+* `bula` -> blue
+* `verda` -> green
+* `yela` -> yellow
+* `nera` -> black
+* `blana` -> white
+* `purla` -> purple
+* `rosa` -> pink
+
+Adjectives should follow the noun they qualify, e.g.:
+
+* `nera cate` -> black cats
+* `kadra toz` -> a square house
+* `tola i` -> a beautiful person
+* `o reda dog` -> the red dog
+* `e blana cate` -> the white cats
+
+You will notice that all adjectives end in `a`. It's not a
+coincidence. In case of using several adjectives, and
+differently from English, the order
+will show the level of importance, starting with the most
+qualifying adjective, e.g.: `reda biga toz` -> a big red
+house (with emphasis on red).
+
+## A note on the/a
+
+As you saw in above examples, `i`, `o`, and `e` alone can be used
+to define the noun. Remember that `i` is for a person, `o` for an
+object or animal, and `e` for the plural.
+
+So, **the** beautiful people, will be `e bela i` (or `e bela ie`,
+although that would create a diphthong), whilst **the** beautiful
+person is simply `i bela i`, and **a** beautiful person is `bela i`.
+
+## More descriptive sentences
+
+

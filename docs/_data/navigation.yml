@@ -1,0 +1,26 @@
+# Sample site navigation bar links
+
+- title: Home
+  url: /
+- title: Posts
+  url: /posts/
+#- title: Resume
+#  url: /jobs/
+#- title: Projects
+#  url: /projects/
+- title: Categories
+  url: /categories/
+- title: Tags
+  url: /tags/
+#- title: Skills
+#  url: /skills/
+#- title: Locations
+#  url: /locations/
+- title: Search
+  url: /search/
+- title: GitHub Profile
+  url: https://github.com/peergum
+#- title: Why so serious?
+#  url: https://hilger.ca
+#- title: Recipes
+#  url: /recipes/

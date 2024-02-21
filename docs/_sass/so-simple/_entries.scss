@@ -1,0 +1,299 @@
+/* ==========================================================================
+   Entries (Posts, collection documents, etc.)
+   ========================================================================== */
+
+.entry, .job-entry, .project-entry {
+  @include clearfix();
+  position: relative;
+
+  a {
+    color: inherit;
+  }
+}
+
+.entry-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.job-entry .entry-header, .project-entry .entry-header {
+  -ms-flex-direction: row;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+
+.entry-excerpt-block {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  /*box-shadow: 0 0 1px black;*/
+  background-color: #f7f7f7;
+}
+
+.entry-thumbnail {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+}
+.entry-title, .entry-job-title, .entry-project-title {
+  margin-bottom: 0.5rem;
+  font-family: $title-font-family;
+  font-weight: $entry-title-weight;
+  font-style: italic;
+  letter-spacing: -1px;
+  word-wrap: break-word; /* break long words that could overflow */
+
+  a {
+    text-decoration: none;
+  }
+
+  a[rel="bookmark"]::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+  }
+}
+
+.entry-job-title,.entry-project-title {
+  a {
+    font-size: 18pt;
+  }
+}
+
+.entry-image {
+  -webkit-box-ordinal-group: 0;
+  -ms-flex-order: -1;
+  order: -1;
+  max-width: 400px;
+  margin-bottom: 0.5rem;
+  justify-content: center;
+}
+
+.entry-logo {
+  -webkit-box-ordinal-group: 0;
+  -ms-flex-order: -1;
+  display: inline-flex;
+  border: solid 1px black;
+  order: -1;
+  width: auto;
+  padding: 2px;
+  float: left;
+  margin-bottom: 0.5rem;
+  max-height: 45px
+}
+
+.entry-meta {
+  .entry-date,
+  .read-time {
+    font-family: $meta-font-family;
+    font-style: italic;
+    white-space: nowrap;
+  }
+
+  .read-time + .entry-date::before {
+    content: "\2022";
+    padding: 0 0.5em;
+  }
+}
+
+.entry-meta-top {
+  .entry-date,
+  .read-time {
+    font-family: $meta-font-family;
+    font-style: italic;
+    white-space: nowrap;
+  }
+  padding-top:0;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  font-size: 0.75rem;
+
+  .read-time + .entry-date::before {
+    content: "\2022";
+    padding: 0 0.5em;
+  }
+}
+
+.entry-excerpt a,
+.u-bookmark-of {
+  position: relative;
+  z-index: 10;
+}
+
+/*
+   Entries List Layout
+   ========================================================================== */
+
+.entries-list {
+  .entry, .job-entry, .project-entry {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-bottom: 2rem;
+  }
+
+  .entry-title {
+    @include fluid-type($min-vw, $max-vw, 24px, 36px);
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
+  }
+
+  .entry-job-title,.entry-project-title {
+    @include fluid-type($min-vw, $max-vw, 24px, 36px);
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
+  }
+
+  .entry-excerpt,
+  .entry-content {
+    -webkit-box-ordinal-group: 4;
+    -ms-flex-order: 3;
+    order: 3;
+    p {
+      text-align: justify;
+    }
+
+    /* remove space after last child element */
+    > *:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .entry-excerpt {
+    /* normalize font sizes */
+    > * {
+      font-size: 1rem;
+    }
+  }
+
+  .entry-meta {
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
+    order: 2;
+    z-index: 1000;
+    margin-bottom: 1em;
+    font-size: 0.75rem;
+  }
+
+  .entry-locations {
+    z-index: 1000;
+    display: flex;
+    place-content: end;
+    ul {
+      list-style: none;
+      padding: 0;
+      text-indent: 0;
+
+      a {
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      li {
+        border-bottom: lightgrey 1px dotted;
+        text-align: right;
+      }
+
+      li:last-child {
+        border-bottom: none;
+      }
+    }
+  }
+
+  .more-link {
+    margin-top: -1em;
+    text-align: right;
+
+    a {
+      text-decoration: none;
+    }
+  }
+}
+
+/*
+   Entries Grid Layout
+   ========================================================================== */
+
+.entries-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 2em;
+
+  .entry {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-bottom: 2rem;
+  }
+
+  .entry-title {
+    @include fluid-type($min-vw, $max-vw, 18px, 24px);
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
+  }
+
+  .entry-job-title, .entry-project-title {
+    @include fluid-type($min-vw, $max-vw, 18px, 24px);
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
+  }
+
+  .entry-excerpt,
+  .entry-content {
+    -webkit-box-ordinal-group: 4;
+    -ms-flex-order: 3;
+    order: 3;
+
+    /* remove space after last child element */
+    > *:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .entry-excerpt {
+    /* normalize font sizes */
+    > * {
+      font-size: 1rem;
+    }
+  }
+
+  .entry-meta {
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
+    order: 2;
+    margin-bottom: 1em;
+    font-size: 0.75rem;
+  }
+
+  .more-link {
+    margin-top: -1em;
+
+    a {
+      text-decoration: none;
+    }
+  }
+}
