@@ -3,6 +3,7 @@ layout: post
 title: "Language Bases - 3"
 date: 2024-02-21 13:32:00 -0500
 categories: [bases]
+tags: [sentences, adjectives, the, a, person, object, plural]
 ---
 
 # Sentences
@@ -53,7 +54,7 @@ will show the level of importance, starting with the most
 qualifying adjective, e.g.: `reda biga toz` -> a big red
 house (with emphasis on red).
 
-## A note on the/a
+## A note on using "the or a"
 
 As you saw in above examples, `i`, `o`, and `e` alone can be used
 to define the noun. Remember that `i` is for a person, `o` for an

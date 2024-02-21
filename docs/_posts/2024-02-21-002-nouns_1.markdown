@@ -3,6 +3,8 @@ layout: post
 title:  "Language Bases - 2"
 date:   2024-02-21 13:32:00 -0500
 categories: [bases]
+tags: [nouns, vowels, pronunciation, the, a, person, object, plural]
+
 ---
 # Nouns
 
@@ -66,6 +68,4 @@ designing a person or an object/animal.
 Note that, similarly to English, we don't need to use a preposition for
 "at".
 
-That will lead to our next chapter: [sentences][sentences].
-
-[sentences]: 
+That will lead to our next chapter on sentences.

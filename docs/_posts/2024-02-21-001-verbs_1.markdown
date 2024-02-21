@@ -3,6 +3,7 @@ layout: post
 title:  "Language Bases - 1"
 date:   2024-02-21 13:32:00 -0500
 categories: [bases]
+tags: [verbs, pronouns, singular, plural]
 ---
 
 # Verbs
