@@ -18,6 +18,8 @@
 #  url: /locations/
 - title: Search
   url: /search/
+- title: About
+  url: /about/
 - title: GitHub Profile
   url: https://github.com/peergum
 #- title: Why so serious?

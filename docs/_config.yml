@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Neutro [nutro]
+title: Neutro ["nutro"]
 email: phil@peergum.com
 description: >- # this means to ignore newlines until "baseurl:"
   Let's create a gender-neutral language, shall we?
