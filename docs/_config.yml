@@ -32,6 +32,9 @@ remote_theme: "mmistakes/so-simple-theme@3.2.0"
 
 plugins:
   - jekyll-feed
+  - jekyll-paginate
+
+paginate: 5
 
 # Exclude from processing.
 # The following items will not be processed, by default.
