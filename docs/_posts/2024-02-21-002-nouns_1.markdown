@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "The Bases - 2"
+title:  "Language Bases - 2"
 date:   2024-02-21 13:32:00 -0500
-categories: [language, bases, rules]
+categories: [bases]
 ---
 # Nouns
 
