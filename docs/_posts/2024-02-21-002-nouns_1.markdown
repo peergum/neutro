@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Language Bases - 2"
+title:  "Language Bases - 2 (Nouns I)"
 date:   2024-02-21 13:32:00 -0500
 categories: [bases]
 tags: [nouns, vowels, pronunciation, the, a, person, object, plural]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Language Bases - 3"
+title: "Language Bases - 3 (Sentences I)"
 date: 2024-02-21 13:32:00 -0500
 categories: [bases]
 tags: [sentences, adjectives, the, a, person, object, plural]
@@ -63,7 +63,4 @@ object or animal, and `e` for the plural.
 So, **the** beautiful people, will be `e bela i` (or `e bela ie`,
 although that would create a diphthong), whilst **the** beautiful
 person is simply `i bela i`, and **a** beautiful person is `bela i`.
-
-## More descriptive sentences
-
 

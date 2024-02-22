@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Language Bases - 1"
+title:  "Language Bases - 1 (Verbs I)"
 date:   2024-02-21 13:32:00 -0500
 categories: [bases]
 tags: [verbs, pronouns, singular, plural]
