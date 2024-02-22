@@ -3,7 +3,8 @@ An attempt at creating a new universal and neutral
 spoken and written language.
 
 ## What is it?
-Please visit the [Neutro](neutro.hilger.ca) site to learn 
+Please visit the [Neutro](https://neutro.hilger.ca)
+github-hosted page to learn 
 more about this project and the language definitions.
 
 ## About this repository
