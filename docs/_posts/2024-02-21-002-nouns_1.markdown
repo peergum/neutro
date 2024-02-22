@@ -8,32 +8,37 @@ tags: [nouns, vowels, pronunciation, the, a, person, object, plural]
 ---
 # Nouns
 
-Let's define a few useful nouns
+Let's define a few useful simple nouns
 
-* `caz` -> Home
+* `kaz` -> Home/House
 * `rod` -> Road
 * `toz` -> House
 * `bild` -> Building
 * `skol` -> School
 * `fis` -> Office
+* `stor` -> Commerce
+* `magazin` -> Supermarket / Large commerce
+* `mol` -> Mall
+* `strit` -> Street
+* `skel` -> Sky
+* `sol` -> Sun
+* `dog` -> Dog
+* `kat` -> Cat
 
 ### A quick note on pronounciation
 
 As for `H` mentioned earlier, we're targeting a simple pronounciation.
 For that matter, there's no variation on the sounds of letters, or any
-variation is irrelevant to the meaning.
-
-For instance `a` will have the same "role", independently of the
-place in the word, or the letters around it. It can be pronounced, `ah` or
-`ay`, that won't make a difference.
-
-Consequently, `caz` could be pronounced like `kaz` or like `case`, that
-will still be the same word.
+variation is irrelevant to the meaning, so that accents won't be a problem.
 
 The vowel sounds will be `a` [ah], `e` [ay], `i` [ee], `o` [oh], `u` [u].
 
-We should also avoid any [diphthong][diphthong], so we don't confuse the
-reader/listener. In simpler terms, don't use two vowels in sequence.
+We should also avoid any [diphthong][diphthong], that may be
+harder to pronounce for some people. In simpler terms, don't
+use two vowels in sequence.
+
+The number of consecutive consonants will also be limited to
+two, also for practicality.
 
 [diphthong]: https://en.wikipedia.org/wiki/Diphthong
 
@@ -45,14 +50,15 @@ Nouns will **always** start and end with a consonant.
 
 The plural of nouns should be simple and guessable. We'll use the letter `e` for that.
 
-* `caz` -> `caze` [kazay]
+* `kaz` -> `kaze` [kazay]
 * `rod` -> `rode` [roday]
 * `toz` -> `toze` [tozay]
 * `bild` -> `bilde` [bilday]
 * `skol` -> `skole` [skolay]
 * `fis` -> `fise` [fissay]
 * `dog` -> `doge` [dogay]
-* `cat` -> `cate` [catay]
+* `kat` -> `kate` [catay]
+* ...
 
 For that reason, nouns should not finish in `e` in singular form.
 Similarly, due to the special meaning of `i` (person) and `o` (object),
@@ -63,7 +69,7 @@ designing a person or an object/animal.
 
 * `im av toz` -> I have a house
 * `it be skol` -> he or she is (at) school
-* `to be caz` -> they (objects/animals) are (at) home
+* `to be kaz` -> they (objects/animals) are (at) home
 
 Note that, similarly to English, we don't need to use a preposition for
 "at".

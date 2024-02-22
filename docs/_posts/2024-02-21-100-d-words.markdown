@@ -1,0 +1,58 @@
+---
+layout: post
+title: "Language Bases - Annex I (List of words, D)"
+date: 2024-02-21 13:32:00 -0500
+categories: [ dictionary ]
+tags: [ words, dictionary, d ]
+
+---
+
+# List of words
+
+## Starting with D
+
+| Word     | Meaning         | Type   |
+|----------|-----------------|--------|
+| dat      | date            | noun   |
+|          |                 |
+| ded      | dead body       | person |
+| def      | deaf person     | person |
+| dekor    | decor           | noun   |
+| dekorat  | decoration      | noun   |
+| det      | debt            | noun   |
+|          |                 |
+| dif      | difference      | noun   |
+| dig      | hole            | noun   |
+| dikto    | dictionary      | noun   |
+| dilem    | dilemna         | noun   |
+| dimens   | dimension       | noun   |
+| dindin   | money           | noun   |
+| diner    | dinner          | noun   |
+| dingo    | crazy person    | person |
+| diplomat | diplomat        | noun   |
+| diplomas | diplomacy       | noun   |
+| direkton | direction       | noun   |
+| direktor | director        | noun   |
+| diskus   | discussion      | noun   |
+| disagrem | disagreement    | noun   |
+| divison  | division        | noun   |
+| divisor  | divisor         | noun   |
+| dizet    | famine          | noun   |
+|          |                 |
+| dog      | dog             | noun   |
+| dok      | doctor          | noun   |
+| dokum    | document        | noun   |
+| dolor    | pain            | noun   |
+| dom      | dominant person | person |
+| donaton  | donation        | noun   |
+| doz      | dose            | noun   |
+|          |                 |
+| dud      | dude            | person |
+| dufus    | doofus          | person |
+| dumdum   | crazy person    | person |
+| dun      | dune            | noun   |
+| duplik|duplicate/copy|noun|
+|duraton|duration|noun|
+|dust|dust|noun|
+|dut|doubt|noun|
+

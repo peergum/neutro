@@ -1,0 +1,20 @@
+---
+layout: post
+title: "Language Bases - Annex I (List of words, A)"
+date: 2024-02-21 13:32:00 -0500
+categories: [ dictionary ]
+tags: [ words, dictionary, a ]
+
+---
+
+# List of words
+
+## Starting with A
+
+| Word | Meaning       | Type |
+|------|---------------|------|
+| ad   | advertisement | noun |
+| art  | art           | noun |
+| av   | to have       | verb |
+| ax   | axe           | noun |
+

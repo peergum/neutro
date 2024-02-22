@@ -1,0 +1,38 @@
+---
+layout: post
+title: "Language Bases - Annex I (List of words, B)"
+date: 2024-02-21 13:32:00 -0500
+categories: [ dictionary ]
+tags: [ words, dictionary, b ]
+
+---
+
+# List of words
+
+## Starting with B
+
+| Word | Meaning     | Type |
+|------|-------------|------|
+| bag  | bag         | noun |
+|      |
+| be   | to be       | verb |
+|      |
+| bid  | offer       | noun |
+| bif  | beef        | noun |
+| bik  | bicycle     | noun |
+| bil  | bill        | noun |
+| bin  | trash       | noun |
+| bip  | beep        | noun |
+| bir  | beer        | noun |
+| bit  | bite        | noun |
+| biz  | business    | noun |
+|      |
+| bog  | issue/error | noun |
+| bok  | mouth       | noun |
+| bol  | ball        | noun |
+| bos  | boss        | noun |
+| bot  | boat        | noun |
+|      |             | noun |
+| buf  | food        | noun |
+| buk  | book        | noun |
+| bus  | bus         | noun |
