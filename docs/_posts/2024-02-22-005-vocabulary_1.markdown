@@ -1,0 +1,54 @@
+---
+layout: post
+title: "Language Bases - 4 (Grammar I)"
+date: 2024-02-21 13:32:00 -0500
+categories: [bases, grammar]
+tags: [grammar]
+---
+
+# Vocabulary
+
+## Simple transformation
+
+For a simple transformation from English to Neutro,
+consider the following rules:
+
+1. **first and foremost**, eliminate ANY word that specifically
+refers to a masculine or a feminine noun. E.g.
+
+Let's try and define an initial simple grammar,
+based on previous posts. We'll update that later on,
+with variants and more complex grammar.
+
+```lex
+consonant    :=  [bdfgjklmnoprstvxz]
+vowel        := [aeiou]
+
+noun         := consonant{1,2} (vowel consonant{1,2})+
+adjective    := vowel? consonant{1,2} (vowel consonant{1,2})* "a"
+adjectives   := adjective | adjectives BLANK adjective
+animal       := list_of_nouns_1
+object       := list_of_nouns_2
+
+a_thing      := (adjectives BLANK)? (animal | object)
+the_thing    := "o" BLANK a_thing
+anything     := (a_thing | the_thing)
+things       := anything "e"
+many_things  := things | many_things COMMA BLANK things
+
+a_person     := (adjectives BLANK)? list_of_nouns_3
+the_person   := "i" a_person
+any_person   := (a_person | the_person)
+people       := any_person "e"
+group        := people | group people
+
+anything     := (things | group | anything | any_person) COMMA BLANK
+
+subject      := personal_pronoun | anything 
+verb         := (vowel? consonant{1,2}) (vowel consonant{1,2})*
+target       := subject
+complement   := (preposition BLANK)? subject
+
+basic_sentence := subject BLANK verb
+                | subject BLANK complement
+```

@@ -11,3 +11,6 @@ PeerGum:
     - title: LinkedIn
       url: https://linkedin.com/in/philippehilger
       icon: fab fa-linkedin
+    - title: My Page
+      url: https://phil.hilger.ca
+      icon: fas fa-pen-nib
