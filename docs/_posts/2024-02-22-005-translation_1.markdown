@@ -1,0 +1,34 @@
+---
+layout: post
+title: "Language Bases - 5 (Translation I)"
+date: 2024-02-21 13:32:00 -0500
+categories: [ bases, translation ]
+tags: [ translation ]
+---
+
+# Vocabulary
+
+## Preliminary note
+
+This is a WIP and not a definitive guide. Things will likely change.
+
+## Simple transformation
+
+For a simple transformation from English to Neutro,
+consider the following rules:
+
+1. **first and foremost**, eliminate ANY word that specifically
+   refers to a masculine or a feminine noun, and replace it with
+   a generic neutral word instead. E.g. woman/man -> person
+1. transform any [ah] sound (as in `bad`, `battle`...) into the letter `a`
+1. transform any [ay] sound (as in `late`, `bed`...) into the letter `e`
+1. transform any [i] sound (as in `bee`, `pin` ...) into the letter `i`
+1. transform any [o] sound (as in `bowl`, `hawk`, `bored`, `boat` ...) into the letter `o`
+1. transform any [u] sound (as in `foot` ....) into the letter `u`
+1. for diphthongs, keep the most significant sound, e.g:
+   - `road` -> `rod`
+   - `route` -> `rut`
+   - `colour` -> `color`
+1. if above rule doesn't have an obvious outcome, keep the first letter
+
+(to be continued...)

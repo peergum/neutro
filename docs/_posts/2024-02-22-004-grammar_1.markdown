@@ -8,41 +8,56 @@ tags: [grammar]
 
 # Grammar
 
+## Preliminary note
+
+This is an initial attempt at defining and expressing a grammar. The syntax used is temporary and may not
+conform to existing standards (BNF and variations). Consider it a WIP, subject to constant change, and
+this post WILL get updated.
+
+Some of the rules may even contradict the practical examples given previously, since I'm hoping to make
+the language easily "parse-able" and that may requires tweaking the definition of certain words.
+
+I'm considering in parallel ways to translate to and from English, learning and experimenting with tools like
+lex/yacc (flex/bison) and ANTLR4. Stay tuned.
+
 ## Simple grammar
 
 Let's try and define an initial simple grammar,
 based on previous posts. We'll update that later on,
 with variants and more complex grammar.
 
-```lex
-consonant    :=  [bdfgjklmnoprstvxz]
-vowel        := [aeiou]
-
-noun         := consonant{1,2} (vowel consonant{1,2})+
-adjective    := vowel? consonant{1,2} (vowel consonant{1,2})* "a"
-adjectives   := adjective | adjectives BLANK adjective
-animal       := list_of_nouns_1
-object       := list_of_nouns_2
-
-a_thing      := (adjectives BLANK)? (animal | object)
-the_thing    := "o" BLANK a_thing
-anything     := (a_thing | the_thing)
-things       := anything "e"
-many_things  := things | many_things COMMA BLANK things
-
-a_person     := (adjectives BLANK)? list_of_nouns_3
-the_person   := "i" a_person
-any_person   := (a_person | the_person)
-people       := any_person "e"
-group        := people | group people
-
-anything     := (things | group | anything | any_person) COMMA BLANK
-
-subject      := personal_pronoun | anything 
-verb         := (vowel? consonant{1,2}) (vowel consonant{1,2})*
-target       := subject
-complement   := (preposition BLANK)? subject
-
-basic_sentence := subject BLANK verb
-                | subject BLANK complement
 ```
+consonant    =  [bdfgjklmnoprstvxz]
+vowel        = [aeiou]
+
+noun         ::= consonant{1,2} (vowel consonant{1,2})+
+adjective    ::= vowel? consonant{1,2} (vowel consonant{1,2})* "a"
+adjectives   ::= adjective | adjectives BLANK adjective
+animal       ::= list_of_nouns_1
+object       ::= list_of_nouns_2
+
+a_thing      ::= (adjectives BLANK)? (animal | object)
+the_thing    ::= "o" BLANK a_thing
+anything     ::= (a_thing | the_thing)
+things       ::= anything "e"
+many_things  ::= things | many_things COMMA BLANK things
+
+a_person     ::= (adjectives BLANK)? list_of_nouns_3
+the_person   ::= "i" a_person
+any_person   ::= (a_person | the_person)
+people       ::= any_person "e"
+group        ::= people | group people
+
+anything     ::= (things | group | anything | any_person) COMMA BLANK
+
+subject      ::= personal_pronoun | anything 
+verb         ::= (vowel? consonant{1,2}) (vowel consonant{1,2})*
+target       ::= subject
+complement   ::= (preposition BLANK)? subject
+
+basic_sentence ::= subject BLANK verb
+                | subject BLANK complement
+                | subject BLANK verb BLANK complement
+```
+
+(to be continued...)
